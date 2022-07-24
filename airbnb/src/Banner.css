@@ -1,0 +1,43 @@
+.banner{
+    height:50vh;
+    position: relative;
+    background-image: url('https://foyr.com/learn/wp-content/uploads/2021/08/design-your-dream-home.jpg');
+    background-position: center;
+    background-size:cover;
+}
+
+.bannerInfo{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:40px;
+    width: 300px;
+}
+
+.bannerInfo > button {
+    background-color:#ff7779;
+    color:white;
+    text-transform: inherit;
+    margin-top:20px;
+    font-weight: 600;
+    cursor: pointer;
+
+} .bannerInfo > h5{
+    margin-top:10px;
+}.bannerInfo > button:hover{
+    background-color:white;
+    color:#ff7779;
+}
+.bannerSrcBtn{
+    background-color:white !important;
+    font-weight:900 !important;
+    text-transform: inherit !important;
+    color : #ff7779;
+}
+
+.bannerSearch{
+    display: flex;
+    flex-direction: column;
+}
