@@ -20,23 +20,23 @@ function Post({
   return (
     <div className='post'>
         <div className='postAvatar'>
-            <Avatar src="https://i.pravatar.cc/300" />
+            <Avatar src={avatar} />
         </div>
         <div className='postBody'>
             <div className='postHeader'>
                 <div className='postHeaderText'>
                     <h3>
-                        Kıvanç çoban <span className='postHeaderSpecial'>
-                            <CheckCircleIcon className="postBadge"/>
-                            @kivanccoban
+                        {displayName}<span className='postHeaderSpecial'>
+                           <CheckCircleIcon className="postBadge"/>
+                            {username}
                         </span> 
                     </h3>
                 </div>
                 <div className='postHeaderDes'>
-                    <p>I'm frontend developer</p>
+                    <p>{text}</p>
                 </div>
             </div>
-            <img src="https://picsum.photos/300/300"/>
+            <img src={image}/>
             <div className='postFooter'>
                 <ChatBubbleOutlineIcon fontSize="small" />
                 <RepeatIcon fontSize="small" />
